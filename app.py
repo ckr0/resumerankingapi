@@ -76,9 +76,9 @@ def extract_text_from_docx(file_stream):
     print(text)
 
 llm = ChatOllama(
-    model="akritrimai",
+    model="llama",
     temperature=0,
-    base_url="http://192.168.50.218:11434",
+    base_url="http://0.0.0.0:11434",
     format="json",
     # other params...
 )
